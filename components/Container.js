@@ -4,7 +4,7 @@ import GettingCo2 from "../components/GettingCo2";
 import GettingKwh from "../components/GettingKwh";
 import GettingKm from "../components/GettingKm";
 import GettingTrees from "../components/GettingTrees";
-
+import GettingMonthlyh from "./GettingMontlyh";
 export default function Container() {
   return (
     <>
@@ -13,6 +13,7 @@ export default function Container() {
       <h1>
         <a>Advice</a>
       </h1>
+      <GettingMonthlyh />
       <GettingCo2 />
       <GettingKwh />
       <GettingKm />
