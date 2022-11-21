@@ -1,3 +1,4 @@
+import Intro from "../components/Intro";
 import Form from "../components/Form";
 import GettingCo2 from "../components/GettingCo2";
 import GettingKwh from "../components/GettingKwh";
@@ -6,6 +7,7 @@ import GettingTrees from "../components/GettingTrees";
 export default function Home() {
   return (
     <>
+      <Intro />
       <Form />
       <h1>
         <a>Advice</a>
