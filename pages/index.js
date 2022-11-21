@@ -9,7 +9,7 @@ export default function Home() {
       <Form />
       <h1>
         <a>Advice</a>
-      </h1
+      </h1>
       <GettingCo2 />
       <GettingKwh />
       <GettingKm />
