@@ -13,7 +13,8 @@ export default function Container() {
     setHour(event.target.value);
     //console.log('value is:', event.target.value);
   };
-const month=30;
+const month=30*hour;
+console.log(month); 
   return (
     <div>
       <Intro />
@@ -27,13 +28,13 @@ const month=30;
         value={hour}
       />
       <h2>{hour} hour daily</h2>
-      <h2 monthly={hour*month}>{hour * month} hour month</h2>
+      <h2 month={month}>{month} hour month</h2>
       
-      <GettingKwh monthly={hour*month}/>
+      <GettingKwh month={month}/>
  
-      <GettingKm monthly={hour*month}/>
+      <GettingKm month={month}/>
 
-      <GettingCo2 monthly={hour*month} />
+      <GettingCo2 month={month} />
 
       <GettingTrees />
     </div>
