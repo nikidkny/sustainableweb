@@ -7,6 +7,7 @@ import GettingTrees from "../components/GettingTrees";
 
 import { useState } from "react";
 
+import GettingMonthlyh from "./GettingMontlyh";
 export default function Container() {
   //Here we define the States for CO2, kWh and Km
   // const initCo2 = 0.23314;
