@@ -55,7 +55,7 @@ export default function GettingCo2({ month }) {
             <Image src={tree11} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
           </li>
         </ul>
-        <div>
+        <div className="ground">
           <Image src={ground} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
         </div>
       </div>
