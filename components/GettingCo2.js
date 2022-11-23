@@ -13,16 +13,19 @@ import tree11 from "../media/tree11.svg";
 import ground from "../media/ground.svg";
 
 export default function GettingCo2({ month }) {
-  const totalCO2=1.89/* total= 1.89kgco2 per month per person */
-  const totalTrees=53.33 /* total of tress per mont to clean totalCO2 */
+  const totalCO2 = 1.89; /* total= 1.89kgco2 per month per person */
+  const totalTrees = 53.33; /* total of tress per month to clean totalCO2 */
 
-  const kgco2Month=Math.round((month*0.233)*100)/100;/* user production c02 per month by watching netflix*/
-  
+  const kgco2Month = Math.round(month * 0.233 * 100) / 100; /* user production c02 per month by watching netflix*/
+
   return (
     <>
       <div className="co2">
         <p>That means that the amount of trees to process your</p>
-        <h2>{kgco2Month}kgCo2 emition for watching {month} hours of Netflix a month is: {Math.ceil((kgco2Month/totalTrees)*totalCO2 )} tree(s)</h2>
+        <h2>
+          {kgco2Month}kgCo2 emition for watching {month} hours of Netflix a month is:{" "}
+          {Math.ceil((kgco2Month / totalTrees) * totalCO2)} tree(s)
+        </h2>
       </div>
       <div className="trees">
         <ul>
@@ -66,9 +69,4 @@ export default function GettingCo2({ month }) {
       </div>
     </>
   );
-  }
-  
-  
-  
-
-
+}
