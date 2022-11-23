@@ -1,5 +1,7 @@
-export default function GettingTrees() {
-  return <>
- 
-  </>;
+export default function GettingTrees({ treesUsed }) {
+  return (
+    <>
+      <span>{treesUsed}</span>
+    </>
+  );
 }
