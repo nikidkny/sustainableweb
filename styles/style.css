@@ -343,7 +343,52 @@ ul li img,
   max-width: 100%;
   /* height: auto; */
 }
-
+.tree1,
+.tree2,
+.tree3,
+.tree4,
+.tree5,
+.tree6,
+.tree7,
+.tree8,
+.tree9,
+.tree10,
+.tree11 {
+  opacity: 0;
+}
+.tree1,
+.tree2,
+.tree3,
+.tree4,
+.tree5,
+.tree6,
+.tree7,
+.tree8,
+.tree9,
+.tree10,
+.tree11 {
+  animation-name: appear;
+  animation-duration: 1ms;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .container {
     display: grid;

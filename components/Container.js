@@ -30,8 +30,17 @@ export default function Container() {
           <div className="form-and-text">
             <p>How many hours on avarage do you spend streaming daily? Check out how much CO2 it generates.</p>
             <form>
-              <input type="range" step="1" id="hour" name="hour" min="0" max="10" onChange={handleChange} value={hour} />
-              <output htmlFor="hour" onforminput="value = hour.valueAsNumber;">
+              <input
+                type="range"
+                step="1"
+                id="hour"
+                name="hour"
+                min="0"
+                max="10"
+                onChange={handleChange}
+                value={hour}
+              />
+              <output htmlFor="hour" onforminput="value = foo.valueAsNumber;">
                 <div>
                   <h2>{hour}</h2>
                   <p>hours per day</p>
