@@ -8,38 +8,27 @@ import { useState } from "react";
 
 import GettingMonthlyh from "./GettingMontlyh";
 export default function Container() {
- 
-  const [hour, setHour] = useState('');
-  const handleChange = event => {
+  const [hour, setHour] = useState("");
+  const handleChange = (event) => {
     setHour(event.target.value);
     //console.log('value is:', event.target.value);
   };
-const month=30*hour;
-console.log(month); 
+  const month = 30 * hour;
+  console.log(month);
   return (
     <div>
       <Intro />
-      <input
-        type="range"
-        id="message"
-        name="message"
-        min="0"
-        max="10"
-        onChange={handleChange}
-        value={hour}
-      />
+      <input type="range" id="message" name="message" min="0" max="10" onChange={handleChange} value={hour} />
       <h2>{hour} hour daily</h2>
       <h2 month={month}>{month} hour month</h2>
-      
-      <GettingKwh month={month}/>
- 
-      <GettingKm month={month}/>
+
+      <GettingKwh month={month} />
+
+      <GettingKm month={month} />
 
       <GettingCo2 month={month} />
 
       <GettingTrees />
     </div>
-  );  
-    
-  
+  );
 }
