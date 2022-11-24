@@ -235,8 +235,7 @@ form {
 .form-and-text,
 .hours-month,
 .car,
-.kwh-km,
-.trees {
+.kwh-km {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,7 +245,9 @@ form {
   margin: var(--m-auto);
   width: 100%;
 }
-
+.trees {
+  padding-bottom: ;
+}
 /* Input Type Range */
 
 input {
@@ -345,12 +346,15 @@ input[type="range"]:focus::-ms-fill-upper {
 }
 
 ul {
-  /* width: 100%; */
   display: flex;
   list-style: none;
-  align-items: center;
+  align-items: baseline;
+  margin-bottom: -0.5rem;
+  justify-content: center;
 }
-
+.hidden {
+  display: none;
+}
 ul li {
   width: auto;
 }
@@ -360,51 +364,12 @@ ul li img,
   max-width: 100%;
   /* height: auto; */
 }
-
-.trees ul li {
-  opacity: 0;
-}
-.trees ul li {
-  animation-name: appear;
-  animation-duration: 1ms;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-}
-/* .tree1,
-.tree2,
-.tree3,
-.tree4,
-.tree5,
 .tree6,
-.tree7,
 .tree8,
-.tree9,
 .tree10,
 .tree11 {
-  animation-name: disappear;
-  animation-duration: 1ms;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-} */
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  opacity: 0;
 }
-@keyframes disappear {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 @media screen and (min-width: 768px) {
   #intro {
     background-image: url("../media/earth.svg");
@@ -413,6 +378,12 @@ ul li img,
     background-repeat: no-repeat;
     background-size: 35%;
     /* padding: var(--ptb-large); */
+  }
+  .hidden {
+    display: block;
+  }
+  ul {
+    margin-bottom: -0.4rem;
   }
 }
 

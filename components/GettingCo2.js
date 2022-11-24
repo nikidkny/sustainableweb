@@ -1,13 +1,6 @@
 import Image from "next/image";
-import tree1 from "../media/tree1.svg";
-import tree2 from "../media/tree2.svg";
-import tree3 from "../media/tree3.svg";
-import tree4 from "../media/tree4.svg";
-import tree5 from "../media/tree5.svg";
 import tree6 from "../media/tree6.svg";
-import tree7 from "../media/tree7.svg";
 import tree8 from "../media/tree8.svg";
-import tree9 from "../media/tree9.svg";
 import tree10 from "../media/tree10.svg";
 import tree11 from "../media/tree11.svg";
 import ground from "../media/ground.svg";
@@ -27,7 +20,7 @@ export default function GettingCo2({ month }) {
       </div>
       <div className="trees">
         <ul>
-          <li className="tree6">
+          <li className="tree6 hidden">
             <Image src={tree6} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
           </li>
           <li className="tree8">
