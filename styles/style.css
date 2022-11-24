@@ -579,7 +579,7 @@ ul li img,
   nav ul li a {
     color: var(--color-60a);
   }
-  .tree6 img svg {
+  .darkmodeSvg {
     fill: var(--color-60a);
     color: var(--color-60a);
   }
