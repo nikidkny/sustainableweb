@@ -402,7 +402,7 @@ ul li img,
 
 @media screen and (min-width: 768px) {
   #intro {
-    background-image: url("../media/earth.svg");
+    background-image: url("/media/earth.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
@@ -428,7 +428,7 @@ ul li img,
   }
 
   #intro {
-    background-image: url("../media/earth.svg");
+    background-image: url("/media/earth.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
@@ -461,7 +461,7 @@ ul li img,
     width: 100%;
     height: 240px;
     grid-column: 1/-1;
-    background-image: url("../media/cabel.svg");
+    background-image: url("/media/Cabel.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
