@@ -8,22 +8,22 @@ inView("#co2", ({ target }) => {
   animate(
     target.querySelector(".tree6"),
     { opacity: 1, transform: "none" },
-    { delay: 0.2, duration: 0.9, easing: "ease-in" }
+    { delay: 0.5, duration: 0.9, easing: "ease-in" }
   );
   animate(
     target.querySelector(".tree8"),
     { opacity: 1, transform: "none" },
-    { delay: 0.4, duration: 0.9, easing: "ease-in" }
+    { delay: 1, duration: 0.9, easing: "ease-in" }
   );
   animate(
     target.querySelector(".tree10"),
     { opacity: 1, transform: "none" },
-    { delay: 0.8, duration: 0.9, easing: "ease-in" }
+    { delay: 1.2, duration: 0.9, easing: "ease-in" }
   );
   animate(
     target.querySelector(".tree11"),
     { opacity: 1, transform: "none" },
-    { delay: 1, duration: 0.9, easing: "ease-in" }
+    { delay: 1.4, duration: 0.9, easing: "ease-in" }
   );
 });
 
@@ -50,7 +50,8 @@ export default function Container() {
       <section className="tvSect">
         <div className="container">
           <div className="form-and-text">
-            <p>How many hours on avarage do you spend streaming daily? Check out how much CO2 it generates.</p>
+            <h2>How many hours daily do you spend streaming on avarage?</h2>
+            <p> Check out how much CO2 it generates.</p>
             <form>
               <input
                 type="range"
