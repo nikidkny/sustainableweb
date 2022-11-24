@@ -169,7 +169,7 @@ section {
   align-items: center;
   text-align: center;
   padding: var(--ptb-large);
-  margin: var(--m-auto);
+  /* margin: var(--mtb-auto-large); */
   min-height: 400px;
   margin-bottom: 0rem;
 }
@@ -185,6 +185,8 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 65%;
+  top: 3.5rem;
+  position: relative;
 }
 
 form {
@@ -250,7 +252,8 @@ form {
   align-items: center;
   min-height: 240px;
   gap: 4rem;
-  margin: var(--m-auto);
+  /* margin: var(--m-auto); */
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -413,6 +416,7 @@ ul li img,
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
+    top: 3.5rem;
     /* padding: var(--ptb-large); */
   }
   .hidden {
@@ -442,7 +446,7 @@ ul li img,
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
-    top: 4rem;
+    top: 3.5rem;
     position: relative;
     /* padding: var(--ptb-large); */
   }
@@ -475,11 +479,11 @@ ul li img,
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -80px;
+    margin-top: -42px;
     margin-bottom: -7rem;
-    /* margin-top: -100px;
-    margin-bottom: -150px; */
-    left: -75px;
+    /* margin-top: -100px; */
+    /* margin-bottom: -150px; */
+    left: -40px;
     position: relative;
     z-index: -1;
   }
@@ -503,8 +507,8 @@ ul li img,
   }
 
   .tvSect {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+    /* margin-bottom: 4rem; */
+    /* margin-top: 4rem; */
   }
   .form-and-text h2 {
     margin-top: 4rem;
