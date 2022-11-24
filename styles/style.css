@@ -200,7 +200,13 @@ form {
 .form-and-text {
   grid-column: 1/-1;
 }
-
+.form-and-text h2 {
+  margin-top: 1rem;
+  margin-bottom: -2.5rem;
+}
+.form-and-text p {
+  margin-bottom: -1rem;
+}
 .hours-month {
   grid-column: 1/-1;
   background-image: url("/media/tv.svg");
@@ -497,7 +503,12 @@ ul li img,
   }
 
   .tvSect {
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+  .form-and-text h2 {
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
   }
   .carSect {
     margin-bottom: -1rem;
