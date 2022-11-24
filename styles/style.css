@@ -171,7 +171,7 @@ section {
   padding: var(--ptb-large);
   margin: var(--m-auto);
   min-height: 400px;
-  margin-bottom: -2rem;
+  margin-bottom: 0rem;
 }
 
 #intro,
@@ -270,7 +270,7 @@ input[type="range"]::-webkit-slider-runnable-track {
   cursor: pointer;
   animate: 0.2s;
   box-shadow: 0px 0px 0px #000000;
-  background: var(--color-10a);
+  background: var(--color-30b);
   border-radius: 1px;
   border: 0px solid #000000;
 }
@@ -359,8 +359,8 @@ ul li {
   width: auto;
 }
 
-ul li svg,
-.ground svg {
+ul li img,
+.ground img {
   max-width: 100%;
   /* height: auto; */
 }
@@ -470,7 +470,7 @@ ul li svg,
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -80px;
-    margin-bottom: -130px;
+    margin-bottom: -7rem;
     /* margin-top: -100px;
     margin-bottom: -150px; */
     left: -75px;
@@ -496,6 +496,12 @@ ul li svg,
     /* height: 100%; */
   }
 
+  .tvSect {
+    margin-bottom: 1rem;
+  }
+  .carSect {
+    margin-bottom: -1rem;
+  }
   #footer {
     display: flex;
     justify-content: baseline;
@@ -560,6 +566,10 @@ ul li svg,
     color: var(--color-60a);
   }
   nav ul li a {
+    color: var(--color-60a);
+  }
+  .darkmodeSvg {
+    fill: var(--color-60a);
     color: var(--color-60a);
   }
 }

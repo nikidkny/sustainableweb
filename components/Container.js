@@ -1,5 +1,4 @@
 import Intro from "../components/Intro";
-//import Form from "../components/Form";
 import GettingCo2 from "../components/GettingCo2";
 import GettingKwh from "../components/GettingKwh";
 import GettingKm from "../components/GettingKm";
@@ -48,7 +47,7 @@ export default function Container() {
         </div>
       </section>
 
-      <section>
+      <section className="tvSect">
         <div className="container">
           <div className="form-and-text">
             <p>How many hours on avarage do you spend streaming daily? Check out how much CO2 it generates.</p>
@@ -81,7 +80,7 @@ export default function Container() {
       <div className="cabel"></div>
       {/* </section> */}
 
-      <section id="kwh-km">
+      <section className="carSect" id="kwh-km">
         <div className="container">
           <GettingCar />
           <div className="kwh-km">
