@@ -387,9 +387,11 @@ ul li img,
 
 #footer .kea h3,
 #footer .kea h2,
-#footer .kea ul h3 {
+#footer .kea ul h3,
+#footer .kea p {
   text-align: center;
   /* padding: var(--p-medium); */
+  color: var(--color-60a);
 }
 
 #footer ul {
