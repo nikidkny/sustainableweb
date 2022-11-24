@@ -5,26 +5,10 @@ import GettingKm from "../components/GettingKm";
 import GettingCar from "./GettingCar";
 import { inView, animate } from "motion";
 inView("#co2", ({ target }) => {
-  animate(
-    target.querySelector(".tree6"),
-    { opacity: 1, transform: "none" },
-    { delay: 0.5, duration: 0.9, easing: "ease-in" }
-  );
-  animate(
-    target.querySelector(".tree8"),
-    { opacity: 1, transform: "none" },
-    { delay: 1, duration: 0.9, easing: "ease-in" }
-  );
-  animate(
-    target.querySelector(".tree10"),
-    { opacity: 1, transform: "none" },
-    { delay: 1.2, duration: 0.9, easing: "ease-in" }
-  );
-  animate(
-    target.querySelector(".tree11"),
-    { opacity: 1, transform: "none" },
-    { delay: 1.4, duration: 0.9, easing: "ease-in" }
-  );
+  animate(target.querySelector(".tree6"), { opacity: 1, transform: "none" }, { delay: 0.5, duration: 0.9, easing: "ease-in" });
+  animate(target.querySelector(".tree8"), { opacity: 1, transform: "none" }, { delay: 1, duration: 0.9, easing: "ease-in" });
+  animate(target.querySelector(".tree10"), { opacity: 1, transform: "none" }, { delay: 1.2, duration: 0.9, easing: "ease-in" });
+  animate(target.querySelector(".tree11"), { opacity: 1, transform: "none" }, { delay: 1.4, duration: 0.9, easing: "ease-in" });
 });
 
 import { useState } from "react";
@@ -53,18 +37,9 @@ export default function Container() {
             <h2>How many hours daily do you spend streaming on avarage?</h2>
             <p> Check out how much CO2 it generates.</p>
             <form>
-              <input
-                type="range"
-                step="1"
-                id="hour"
-                name="hour"
-                min="0"
-                max="10"
-                onChange={handleChange}
-                value={hour}
-              />
+              <input type="range" step="1" id="hour" name="hour" min="0" max="10" onChange={handleChange} value={hour} />
               <output htmlFor="hour">
-                <div>
+                <div className="hours-day">
                   <h2>{hour}</h2>
                   <p>hours per day</p>
                 </div>

@@ -242,6 +242,14 @@ form {
   margin: var(--mtb-auto-large);
 }
 
+.hours-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
 .form-and-text,
 .hours-month,
 .car,
