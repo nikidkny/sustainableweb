@@ -73,8 +73,6 @@ export default function Container() {
           <GettingCo2 month={month} />
         </div>
       </section>
-
-      <GettingTrees />
     </>
   );
 }
