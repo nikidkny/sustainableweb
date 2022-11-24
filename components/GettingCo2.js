@@ -21,20 +21,60 @@ export default function GettingCo2({ month }) {
       <div className="trees">
         <ul>
           <li className="tree6 hidden">
-            <Image src={tree6} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
+            <Image
+              className="darkmodeSvg"
+              src={tree6}
+              alt={""}
+              width={""}
+              height={""}
+              priority
+              sizes="(max-width: 700px) 100vw, 700px"
+            />
           </li>
           <li className="tree8">
-            <Image src={tree8} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
+            <Image
+              className="darkmodeSvg"
+              src={tree8}
+              alt={""}
+              width={""}
+              height={""}
+              priority
+              sizes="(max-width: 700px) 100vw, 700px"
+            />
           </li>
           <li className="tree10">
-            <Image src={tree10} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
+            <Image
+              className="darkmodeSvg"
+              src={tree10}
+              alt={""}
+              width={""}
+              height={""}
+              priority
+              sizes="(max-width: 700px) 100vw, 700px"
+            />
           </li>
           <li className="tree11">
-            <Image src={tree11} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
+            <Image
+              className="darkmodeSvg"
+              src={tree11}
+              alt={""}
+              width={""}
+              height={""}
+              priority
+              sizes="(max-width: 700px) 100vw, 700px"
+            />
           </li>
         </ul>
         <div className="ground">
-          <Image src={ground} alt={""} width={""} height={""} priority sizes="(max-width: 700px) 100vw, 700px" />
+          <Image
+            className="darkmodeSvg"
+            src={ground}
+            alt={""}
+            width={""}
+            height={""}
+            priority
+            sizes="(max-width: 700px) 100vw, 700px"
+          />
         </div>
       </div>
     </>
