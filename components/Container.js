@@ -49,7 +49,7 @@ export default function Container() {
             </form>
           </div>
           <div className="hours-month">
-            <h2>{month} hour month</h2>
+            <h2>{month} hour monthly</h2>
           </div>
         </div>
       </section>
@@ -73,8 +73,6 @@ export default function Container() {
           <GettingCo2 month={month} />
         </div>
       </section>
-
-      <GettingTrees />
     </>
   );
 }
