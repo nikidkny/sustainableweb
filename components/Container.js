@@ -3,9 +3,32 @@ import Intro from "../components/Intro";
 import GettingCo2 from "../components/GettingCo2";
 import GettingKwh from "../components/GettingKwh";
 import GettingKm from "../components/GettingKm";
-import GettingTrees from "../components/GettingTrees";
-import { useState } from "react";
 import GettingCar from "./GettingCar";
+import { inView, animate } from "motion";
+inView("#co2", ({ target }) => {
+  animate(
+    target.querySelector(".tree6"),
+    { opacity: 1, transform: "none" },
+    { delay: 0.2, duration: 0.9, easing: "ease-in" }
+  );
+  animate(
+    target.querySelector(".tree8"),
+    { opacity: 1, transform: "none" },
+    { delay: 0.4, duration: 0.9, easing: "ease-in" }
+  );
+  animate(
+    target.querySelector(".tree10"),
+    { opacity: 1, transform: "none" },
+    { delay: 0.8, duration: 0.9, easing: "ease-in" }
+  );
+  animate(
+    target.querySelector(".tree11"),
+    { opacity: 1, transform: "none" },
+    { delay: 1, duration: 0.9, easing: "ease-in" }
+  );
+});
+
+import { useState } from "react";
 export default function Container() {
   // 1.- Declare a state variable that tracks the value of the input field.
   // 2.- Add an onChange prop to the input field.(Inside the input HTML tag)
@@ -30,7 +53,7 @@ export default function Container() {
           <div className="form-and-text">
             <p>How many hours on avarage do you spend streaming daily? Check out how much CO2 it generates.</p>
             <form>
-            <input
+              <input
                 type="range"
                 step="1"
                 id="hour"
