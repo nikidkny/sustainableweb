@@ -529,3 +529,37 @@ ul li img,
     margin: var(--mlr);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  input[type="range"],
+  nav,
+  body,
+  #intro,
+  #co2 {
+    background-color: var(--color-30b);
+    color: var(--color-60a);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  span,
+  ul,
+  li {
+    color: var(--color-60a);
+  }
+  nav ul li a {
+    color: var(--color-60a);
+  }
+  .darkmodeSvg {
+    fill: var(--color-60a);
+    color: var(--color-60a);
+  }
+}
