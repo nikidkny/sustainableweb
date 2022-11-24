@@ -345,16 +345,14 @@ ul li img,
   max-width: 100%;
   /* height: auto; */
 }
-.trees ul img {
+
+.trees ul li {
   opacity: 0;
 }
-.trees div img {
-  opacity: 1;
-}
-.appear {
+.trees ul li {
   animation-name: appear;
   animation-duration: 1ms;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
