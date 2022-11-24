@@ -68,6 +68,7 @@
 }
 
 body {
+  color: var(--color-30b);
   background-color: var(--color-60a);
 }
 
@@ -167,7 +168,8 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: var(--mtb-auto-large);
+  padding: var(--ptb-large);
+  margin: var(--m-auto);
   min-height: 400px;
 }
 
@@ -182,7 +184,6 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 65%;
-  /* padding: var(--ptb-large); */
 }
 
 form {
@@ -215,7 +216,7 @@ form {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: -130px;
+  margin-bottom: -112px;
 }
 
 .car {
@@ -407,13 +408,40 @@ ul li img,
   }
 }
 
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--p-large);
+  width: 100%;
+  margin: var(--m-auto);
+  padding: var(--ptb-large);
+  background-color: var(--color-30b);
+}
+
+.names {
+  display: flex;
+}
+
+#footer .kea h3,
+#footer .kea h2,
+#footer .kea ul h3 {
+  text-align: center;
+  /* padding: var(--p-medium); */
+}
+
+#footer ul {
+  display: block;
+  text-align: center;
+  padding: var(--ptb-large);
+}
+
 @media screen and (min-width: 768px) {
   #intro {
     background-image: url("../media/earth.svg");
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 35%;
+    background-size: 20%;
     /* padding: var(--ptb-large); */
   }
 }
@@ -430,7 +458,13 @@ ul li img,
   }
 
   #intro {
-    background-size: contain;
+    background-image: url("../media/earth.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    top: 4rem;
+    position: relative;
+    /* padding: var(--ptb-large); */
   }
 
   .intro {
@@ -461,8 +495,13 @@ ul li img,
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -100px;
-    margin-bottom: -150px;
+    margin-top: -80px;
+    margin-bottom: -130px;
+    /* margin-top: -100px;
+    margin-bottom: -150px; */
+    left: -75px;
+    position: relative;
+    z-index: -1;
   }
 
   .car {
@@ -481,5 +520,42 @@ ul li img,
   .ground img {
     max-width: 100%;
     /* height: 100%; */
+  }
+
+  #footer {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    margin: var(--m-auto);
+  }
+
+  .kea {
+    display: block;
+    margin: var(--mtb-large);
+  }
+
+  .kea h2,
+  .kea h3 {
+    margin: var(--mt);
+  }
+
+  #footer .kea h3,
+  #footer .kea h2,
+  #footer .kea p {
+    text-align: center;
+    color: var(--color-60a);
+  }
+
+  #footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #footer ul li {
+    margin: var(--mlr);
   }
 }
