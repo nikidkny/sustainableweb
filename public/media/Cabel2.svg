@@ -1,11 +1,1 @@
-<svg width="11" height="280" viewBox="0 0 11 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_163_70)">
-<rect width="11" height="280" fill="white"/>
-<path d="M0.5 275C0.5 277.761 2.73858 280 5.5 280C8.26142 280 10.5 277.761 10.5 275H0.5ZM10.5 5C10.5 2.23858 8.26142 0 5.5 0C2.73858 0 0.5 2.23858 0.5 5H10.5ZM10.5 275V54.7512H0.5V275H10.5ZM10.5 54.7512V5H0.5V54.7512H10.5Z" fill="#C6C6C6"/>
-</g>
-<defs>
-<clipPath id="clip0_163_70">
-<rect width="11" height="280" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" width="125.56" height="410.28" viewBox="0 0 125.56 410.28"><g id="Layer_1-2"><path d="M6.54,20.5c-2.35,19.86,12.07,36.08,27,37,15.98,.98,33.22-15.52,31-37H6.54Z" fill="none" stroke="#000" stroke-miterlimit="10"/><rect x="20.54" y=".5" width="7" height="19" fill="none" stroke="#000" stroke-miterlimit="10"/><rect x="45.54" y=".5" width="7" height="19" fill="none" stroke="#000" stroke-miterlimit="10"/><path d="M5.54,389.3c-2.35-19.86,12.07-36.08,27-37,15.98-.98,33.22,15.52,31,37H5.54Z" fill="none" stroke="#000" stroke-miterlimit="10"/><rect x="18.13" y="390.78" width="7" height="19" fill="none" stroke="#000" stroke-miterlimit="10"/><rect x="43.13" y="390.78" width="7" height="19" fill="none" stroke="#000" stroke-miterlimit="10"/><path d="M32.05,352.25c87.72-82.08,98.65-113.17,91-126-13.16-22.07-80.89,10.57-110-19-27.44-27.87-4.89-95.1,20-150" fill="none" stroke="#000" stroke-miterlimit="10"/></g></svg>

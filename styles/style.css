@@ -171,6 +171,7 @@ section {
   padding: var(--ptb-large);
   margin: var(--m-auto);
   min-height: 400px;
+  margin-bottom: -2rem;
 }
 
 #intro,
@@ -216,7 +217,7 @@ form {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: -112px;
+  margin-bottom: -4rem;
 }
 
 .car {
@@ -358,8 +359,8 @@ ul li {
   width: auto;
 }
 
-ul li img,
-.ground img {
+ul li svg,
+.ground svg {
   max-width: 100%;
   /* height: auto; */
 }
@@ -413,6 +414,9 @@ ul li img,
   }
   ul {
     margin-bottom: -0.4rem;
+  }
+  .cabel {
+    margin-bottom: -3rem;
   }
 }
 
@@ -556,10 +560,6 @@ ul li img,
     color: var(--color-60a);
   }
   nav ul li a {
-    color: var(--color-60a);
-  }
-  .darkmodeSvg {
-    fill: var(--color-60a);
     color: var(--color-60a);
   }
 }
