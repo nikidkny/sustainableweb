@@ -352,7 +352,6 @@ ul li img,
   opacity: 1;
 }
 .appear {
-  opacity: 1;
   animation-name: appear;
   animation-duration: 1ms;
   animation-delay: 0.5s;
