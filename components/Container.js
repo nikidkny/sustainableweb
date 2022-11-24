@@ -1,5 +1,4 @@
 import Intro from "../components/Intro";
-//import Form from "../components/Form";
 import GettingCo2 from "../components/GettingCo2";
 import GettingKwh from "../components/GettingKwh";
 import GettingKm from "../components/GettingKm";
@@ -32,7 +31,8 @@ export default function Container() {
       <section>
         <div className="container">
           <div className="form-and-text">
-            <p>How many hours on avarage do you spend streaming daily? Check out how much CO2 it generates.</p>
+            <h2>How many hours daily do you spend streaming on avarage?</h2>
+            <p> Check out how much CO2 it generates.</p>
             <form>
               <input type="range" step="1" id="hour" name="hour" min="0" max="10" onChange={handleChange} value={hour} />
               <output htmlFor="hour">
@@ -53,7 +53,7 @@ export default function Container() {
       <div className="cabel"></div>
       {/* </section> */}
 
-      <section id="kwh-km">
+      <section className="carSect" id="kwh-km">
         <div className="container">
           <GettingCar />
           <div className="kwh-km">

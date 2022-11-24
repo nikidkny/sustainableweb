@@ -12,10 +12,9 @@ export default function GettingCo2({ month }) {
   return (
     <>
       <div className="co2">
-        <p>That means that the amount of trees to process your</p>
+        <p>That means for watching {month} hours of Netflix a month the amount of trees to process your</p>
         <h2>
-          {kgco2Month}kgCo2 emition for watching {month} hours of Netflix a month is: <GettingTrees month={month} />{" "}
-          tree(s)
+          energy emission of {kgco2Month}kgCo2 is: <GettingTrees month={month} /> tree(s)
         </h2>
       </div>
       <div className="trees">
